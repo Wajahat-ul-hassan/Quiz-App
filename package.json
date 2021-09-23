@@ -1,0 +1,33 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "homepage": "http://Wajahat-ul-hassan.github.io/Quiz-App",
+  "dependencies": {
+    "firebase": "^8.6.8",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build && cp build/index.html build/404.html"
+    
+  },
+  "author": "wajahat",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wajahat-ul-hassan/Quiz-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wajahat-ul-hassan/Quiz-App/issues"
+  },
+  "description": ""
+}
